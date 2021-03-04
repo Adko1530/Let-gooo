@@ -1,0 +1,19 @@
+Naučte se programovat s námihttps://www.google.com/imgres?imgurl=https%3A%2F%2Ffiverr-res.cloudinary.com%2Fimages%2Ft_main1%2Cq_auto%2Cf_auto%2Cq_auto%2Cf_auto%2Fgigs%2F110771970%2Foriginal%2Fd00e69687a1ccd762d329c20dedb894ddff80747%2Fteach-programing-practically-w-real-world-applications.jpg&imgrefurl=https%3A%2F%2Fwww.fiverr.com%2Fm7mdali%2Fteach-programing-practically-w-real-world-applications&tbnid=ZBoy7wI-QTcU_M&vet=12ahUKEwj7tMWAh5fvAhVHgKQKHVrMDfUQMygBegUIARCmAQ..i&docid=r4ymA9g8EEjA-M&w=680&h=357&q=programing&ved=2ahUKEwj7tMWAh5fvAhVHgKQKHVrMDfUQMygBegUIARCmAQ
+Programing Longues:
+                   expression ::= atom | list
+atom       ::= number | symbol
+number     ::= [+-]?['0'-'9']+
+symbol     ::= ['A'-'Z''a'-'z'].*
+list       ::= '(' expression* ')'
+Tato gramatika specifikuje následující:
+
+exprese je buď atom nebo seznamu ;
+atom je buď číslo nebo symbol ;
+číslo je neporušený sekvence jednoho nebo více desetinných míst, případně předchází plus nebo minus;
+symbol je dopis následuje nula nebo více jiných znaků (bez mezery); a
+seznam je uzavřeno dvojice závorek, s žádným nebo více výrazů uvnitř ní.
+
+
+
+complex *p = NULL;
+complex abs_p = sqrt(*p >> 4 + p->im);
